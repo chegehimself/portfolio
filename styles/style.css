@@ -14,9 +14,12 @@ body {
 }
 
 .section_top,
-.section,
 .section_alt {
-	padding: 2em 0;
+	padding: 4em 0;
+}
+
+.section {
+  padding: 0 0;
 }
 
 .gallery-object {
@@ -71,7 +74,7 @@ li {
  }
 
  .terminal-highlight {
-   color: #4AB19A;
+   color: #ffd20a;
  }
 
 
@@ -114,8 +117,8 @@ p {
  Color Scheme
  **********/
 
- .section_top {
-   background-color: #E0EBE8;
+ .navbar {
+   background-color: #00A65A;
  }
 
  .section_alt {
@@ -129,13 +132,13 @@ p {
 
  a,
  a:visited {
-   color: #4AB19A;
+   color: #e8c00d;
    text-decoration: none;
  }
 
  a,
  a:visited {
-   color: #4AB19A;
+   color: #e8c00d;
    text-decoration: none;
  }
 
