@@ -7,10 +7,9 @@ $(document).ready(function() {
 
     $('html, body').animate({
       'scrollTop': $target.offset().top
-    }, 1200, 'swing', function() { 
+    }, 1200, 'swing', function() {
       window.location.hash = target;
     });
-
-
   });
+  $('#full-year').html(new Date().getFullYear());
 });
